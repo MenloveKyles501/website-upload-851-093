@@ -1,0 +1,8 @@
+{
+  "name": "欧美热门影片",
+  "short_name": "欧美热门影片",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#f59e0b"
+}

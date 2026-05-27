@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索筛选 - 日韩精选影片-精选电影合集-分类内容持续更新</title>
+  <meta name="description" content="搜索日韩精选影片、电影合集、热门影片和高分影片。">
+  <meta name="keywords" content="日韩精选影片,日韩影片,精选电影合集,热门影片,高分影片,电影分类,持续更新">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="日韩精选影片">
+      <span class="brand-mark">映</span>
+      <span class="brand-text">日韩精选影片</span>
+    </a>
+    <nav class="desktop-nav">
+      <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类</a><a class="nav-link" href="ranking.html">排行榜</a><a class="nav-link active" href="search.html">搜索</a><a class="nav-link" href="category/movie.html">电影</a><a class="nav-link" href="category/series.html">剧集</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" data-mobile-nav>
+    <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类</a><a class="nav-link" href="ranking.html">排行榜</a><a class="nav-link active" href="search.html">搜索</a><a class="nav-link" href="category/movie.html">电影</a><a class="nav-link" href="category/series.html">剧集</a>
+  </nav>
+</header>
+<main>
+
+<section class="page-hero">
+  <div class="kicker">搜索筛选</div>
+  <h1>查找影片</h1>
+  <p>可按片名、地区、年份、类型和标签快速筛选影片。</p>
+</section>
+<section class="content-section">
+  <div class="search-panel">
+    <input type="search" placeholder="输入片名、地区、年份或标签" data-search-input>
+    <select data-search-type aria-label="按类型选择">
+      <option value="">全部类型</option>
+      <option value="电影">电影</option>
+      <option value="剧集">剧集</option>
+    </select>
+    <select data-search-region aria-label="按地区选择">
+      <option value="">全部地区</option>
+      <option value="日本">日本</option>
+      <option value="韩国">韩国</option>
+      <option value="中国">中国</option>
+      <option value="香港">香港</option>
+      <option value="美国">美国</option>
+      <option value="加拿大">加拿大</option>
+    </select>
+  </div>
+  <div class="movie-grid search-results" data-search-results></div>
+  <div class="empty-state" data-empty>没有找到匹配内容</div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h3>日韩精选影片</h3>
+      <p>围绕日韩精选影片整理片单，包含热门、经典和高分内容，页面按分类持续补充。</p>
+    </div>
+    <div>
+      <h3>影片分类</h3>
+      <ul><li><a href="category/japan-korea.html">日韩精选</a></li><li><a href="category/action.html">动作热血</a></li><li><a href="category/suspense.html">悬疑烧脑</a></li><li><a href="category/romance.html">爱情治愈</a></li></ul>
+    </div>
+    <div>
+      <h3>站内导航</h3>
+      <ul>
+        <li><a href="categories.html">分类总览</a></li>
+        <li><a href="ranking.html">热度排行</a></li>
+        <li><a href="search.html">搜索筛选</a></li>
+        <li><a href="list/page-1.html">全部片库</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>更多信息</h3>
+      <ul>
+        <li><a href="about.html">关于我们</a></li>
+        <li><a href="support.html">服务支持</a></li>
+        <li><a href="copyright.html">版权声明</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 日韩精选影片. 精选电影合集与分类内容持续更新。</div>
+</footer>
+<script src="assets/search-data.js"></script>
+<script src="assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索 - 日韩经典影片-经典影片合集-高清视频在线播放</title>
+  <meta name="description" content="收录日韩经典影片内容，覆盖不同年代的代表作品，适合按类型与口碑筛选。">
+  <meta name="keywords" content="日韩经典影片,日韩影片,经典影片合集,高清播放,高分电影,电影片单,在线播放">
+  <meta name="theme-color" content="#020617">
+  <meta property="og:title" content="搜索 - 日韩经典影片-经典影片合集-高清视频在线播放">
+  <meta property="og:description" content="收录日韩经典影片内容，覆盖不同年代的代表作品，适合按类型与口碑筛选。">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="./search.html">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script defer src="./assets/site.js"></script>
+</head>
+<body>
+
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./index.html">
+      <span class="brand__mark">日韩经典影片</span>
+      <span class="brand__sub">高清视频在线播放</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="siteNav">☰</button>
+    <nav class="site-nav" id="siteNav"><a class="nav-link" href="./index.html">首页</a><a class="nav-link" href="./categories.html">分类总览</a><a class="nav-link" href="./ranking.html">排行榜</a><a class="nav-link active" href="./search.html">搜索</a></nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h1>站内搜索</h1>
+          <p>支持按关键词、地区、类型、年份进行实时筛选。</p>
+        </div>
+      </div>
+      <form class="filter-bar" data-site-search>
+        <input type="search" data-live-input placeholder="搜索影片名称、标签、简介、地区、年份">
+        <select data-live-region><option value="">全部地区</option></select>
+        <select data-live-type><option value="">全部类型</option></select>
+        <select data-live-year><option value="">全部年份</option></select>
+        <select data-live-sort>
+          <option value="score">默认热度</option>
+          <option value="year">按年份</option>
+          <option value="title">按标题</option>
+        </select>
+      </form>
+      <p class="results-info">当前命中 <strong data-live-count>0</strong> 条影片。</p>
+      <div class="card-grid" data-live-search data-live-grid></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>日韩经典影片</strong>
+      <p>经典片单 · 高清播放 · 静态浏览</p>
+    </div>
+    <div class="footer-links">
+      <a href="./categories.html">分类总览</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">站内搜索</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script src="./assets/movies-data.js"></script>
+</body></html>

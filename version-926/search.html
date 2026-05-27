@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>影片搜索-欧美热门影片</title>
+    <meta name="description" content="搜索欧美热门影片、热门电影、精选电影和高清影片内容。">
+    <meta name="keywords" content="欧美热门影片,欧美影片,热门电影大全,影片点播,高清影片,精选电影,电影片库,影片搜索">
+    <link rel="stylesheet" href="./assets/original.css">
+    <link rel="stylesheet" href="./assets/site.css">
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="site-container">
+        <div class="header-inner">
+            <a class="brand" href="./index.html" aria-label="欧美热门影片">
+                <span class="brand-mark">影</span>
+                <span>
+                    <span class="brand-name">欧美热门影片</span>
+                    <span class="brand-subtitle">热门好看的电影大全</span>
+                </span>
+            </a>
+            <nav class="main-nav" aria-label="主导航">
+                <a class="nav-link " href="./index.html">首页</a>
+                <div class="nav-dropdown">
+                    <a class="nav-trigger " href="./categories.html">分类</a>
+                    <div class="dropdown-panel">
+                <a href="./category-hot-selection.html">热门精选</a>
+                <a href="./category-euro-america.html">欧美精选</a>
+                <a href="./category-cinema-library.html">电影片库</a>
+                <a href="./category-series-trending.html">剧集热播</a>
+                <a href="./category-drama-classics.html">剧情经典</a>
+                <a href="./category-mystery-thriller.html">悬疑惊悚</a>
+                <a href="./category-comedy-light.html">喜剧轻松</a>
+                <a href="./category-romance-city.html">爱情都市</a>
+                    </div>
+                </div>
+                <a class="nav-link " href="./rank.html">排行榜</a>
+                <a class="nav-link active" href="./search.html">搜索</a>
+            </nav>
+            <form class="header-search" data-header-search>
+                <span class="search-icon">⌕</span>
+                <input type="search" name="q" placeholder="搜索影片、类型、地区" aria-label="搜索影片">
+            </form>
+            <button class="mobile-toggle" type="button" data-mobile-toggle aria-label="打开菜单">☰</button>
+        </div>
+        <div class="mobile-panel" data-mobile-panel>
+            <form class="header-search" data-header-search>
+                <span class="search-icon">⌕</span>
+                <input type="search" name="q" placeholder="搜索影片、类型、地区" aria-label="搜索影片">
+            </form>
+            <a class="nav-link" href="./index.html">首页</a>
+            <a class="nav-link" href="./categories.html">分类总览</a>
+            <a class="nav-link" href="./rank.html">排行榜</a>
+            <a class="nav-link" href="./search.html">搜索</a>
+            <a class="nav-link" href="./category-hot-selection.html">热门精选</a>
+            <a class="nav-link" href="./category-euro-america.html">欧美精选</a>
+            <a class="nav-link" href="./category-cinema-library.html">电影片库</a>
+            <a class="nav-link" href="./category-series-trending.html">剧集热播</a>
+            <a class="nav-link" href="./category-drama-classics.html">剧情经典</a>
+            <a class="nav-link" href="./category-mystery-thriller.html">悬疑惊悚</a>
+        </div>
+    </div>
+</header>
+<main data-search-page>
+    <section class="page-hero">
+        <div class="site-container">
+            <nav class="breadcrumb" aria-label="面包屑">
+<a href="./index.html">首页</a>
+<span>›</span>
+<span>影片搜索</span>
+</nav>
+            <div class="page-title">
+                <h1>影片搜索</h1>
+                <p class="page-lead">输入片名、标签、年份、地区或题材关键词，快速定位想看的影片。</p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="site-container">
+            <form class="search-panel" data-search-form>
+                <input type="search" data-search-input placeholder="搜索影片、题材、地区" aria-label="搜索关键词">
+                <select data-search-category aria-label="选择分类">
+                    <option value="">全部分类</option>
+                    <option value="热门精选">热门精选</option>
+                    <option value="欧美精选">欧美精选</option>
+                    <option value="电影片库">电影片库</option>
+                    <option value="剧集热播">剧集热播</option>
+                    <option value="剧情经典">剧情经典</option>
+                    <option value="悬疑惊悚">悬疑惊悚</option>
+                    <option value="喜剧轻松">喜剧轻松</option>
+                    <option value="爱情都市">爱情都市</option>
+                    <option value="科幻奇幻">科幻奇幻</option>
+                    <option value="动画家庭">动画家庭</option>
+                </select>
+                <select data-search-year aria-label="选择年份">
+                    <option value="">全部年份</option>
+                    <option value="2030">2030</option>
+                    <option value="2029">2029</option>
+                    <option value="2028">2028</option>
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                </select>
+                <button class="btn btn-primary" type="submit">搜索</button>
+            </form>
+            <div class="grid movie-grid" data-search-results></div>
+            <div class="empty-state" data-search-empty>没有找到匹配的影片。</div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="site-container">
+        <div class="footer-grid">
+            <div>
+                <h2 class="footer-title">欧美热门影片</h2>
+                <p class="footer-text">聚合欧美热门影片相关内容，包含高关注度电影条目与精选片单，适合按类型浏览。</p>
+            </div>
+            <div>
+                <h2 class="footer-title">快速入口</h2>
+                <div class="footer-links">
+                    <a href="./index.html">首页精选</a>
+                    <a href="./categories.html">分类浏览</a>
+                    <a href="./rank.html">热门排行榜</a>
+                    <a href="./search.html">影片搜索</a>
+                </div>
+            </div>
+            <div>
+                <h2 class="footer-title">热门分类</h2>
+                <div class="footer-links">
+                <a href="./category-hot-selection.html">热门精选</a>
+                <a href="./category-euro-america.html">欧美精选</a>
+                <a href="./category-cinema-library.html">电影片库</a>
+                <a href="./category-series-trending.html">剧集热播</a>
+                <a href="./category-drama-classics.html">剧情经典</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 欧美热门影片 · 热门好看的电影大全</div>
+    </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script src="./assets/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
